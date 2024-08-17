@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+    /* Navbar */
+
+/* header {
+    position: sticky;
+    top: 0;
+}  */
+
+.navbar {
+    height: 80px;
+    background-color: #04245B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(assets/logo_wb.png);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.nav-panel {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.nav-panel a {
+    margin-left: 1.2rem;
+    font-size: 1.7rem;
+    color: #D3AB34;
+}
+
+/* Box-1 */
+
+.tag-line {
+    background-image: url('assets/background.png');
+    background-size: cover;
+    height: 38rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tag-1 {
+    color: #04245B;
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.tag-2 p {
+    color: #04245B;
+    font-size: 5rem;
+}
+
+.tag-2 .p21 {
+    color: #04245B;
+    font-size: 6.4rem;
+}
+
+/* Box-2 */
+
+.music {
+    background-color: #04245B;
+    height: 38rem;
+}
+
+.music h1 {
+    padding-top: 1rem;
+    padding-left: 3.6rem;
+    color: #D3AB34;
+    font-size: 3.5rem;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.card1 {
+    height: 400px;
+    width: 23%;
+    background-color: #D3AB34;
+    padding: 10px;
+    border-radius: 10px;
+} 
+
+.card1 p {
+    padding: 2rem 3.1rem 1rem;
+    font-size: 1.5rem;
+}
+
+.card-img {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Box-3 */
+
+.films {
+    background-color: #D3AB34;
+    height: 45rem;
+}
+
+.films h1 {
+    padding-top: 1rem;
+    padding-left: 3.6rem;
+    color: #04245B;
+    font-size: 3.5rem;
+}
+
+.posters {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.poster1 {
+    height: 432px;
+    width: 324px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.poster-info {
+    background-color: #04245B;
+    width: 21.3%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.poster-info p {
+    padding: 2rem 3.1rem 1rem;
+    font-size: 2rem;  
+    color: white; 
+}
+
+.poster-info p.cfp {
+    font-size: 1rem;
+}
+
+/* Box-4 */
+
+.our-team {
+    background-color: #04245B;
+    height: 52rem;
+}
+
+.our-team h1 {
+    padding-top: 1rem;
+    padding-left: 3.6rem;
+    color: #D3AB34;
+    font-size: 3.5rem;
+}
+
+.panel {
+    margin-top: 3%;
+}
+
+.team {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+.team .team-member {
+    border-radius: 10px;
+    background-color: #D3AB34;
+    margin: 5px;
+    /* margin-bottom: 50px; */
+    width: 300px;
+    padding: 20px;
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.team .team-member h3 {
+    color: #04245B;
+    font-size: 1.8rem;
+}
+
+.team .team-member p.role {
+    color: #4E564E;
+    font-size: 1rem;
+}
+
+.team .team-member p.info {
+    color: black;
+    font-size: 1rem;
+}
+
+
+
+/* Box-5 */
+
+.contact {
+    background-color: #D3AB34;
+    height: 20rem;
+}
+
+.contact h1 {
+    padding-top: 1rem;
+    padding-left: 3.6rem;
+    color: #04245B;
+    font-size: 3.5rem;
+}
+
+.cpanel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cpanel a {
+    text-decoration: none;
+    color: black;
+}
+
+.cpanel a:hover {
+    color: #FF0000;
+}
+
+.social-media i {
+    font-size: 2rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.social-media .i1:hover {
+    color: #FF0000;
+}
+
+.social-media .i2:hover {
+    color: #d62976;
+}
+
+.social-media .i3:hover {
+    color: #0077B5;
+}
+
+.social-media .i4:hover {
+    color: #08851B;
+}
+
+.associ i {
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+
+.associ {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.associ h3 {
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.add i {
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+
+.add p {
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: #D3AB34;
+    color: black;
+    text-align: center;
+    border-top: 0.1rem solid #04245B;
+}
+
+footer h3 {
+    padding: 1rem;
+}
